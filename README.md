@@ -27,11 +27,13 @@ A simple web application to track incomes and expenses, built with HTML, CSS, an
    cd budget-tracker
 Install JSON Server:
 
-sh
+```sh
 npm install -g json-server
+
 Create a db.json file in the project directory with the following content:
 
 **json**
+
 {
   "incomes": [
     {
@@ -56,29 +58,36 @@ Create a db.json file in the project directory with the following content:
     }
   ]
 }
+
 **Start JSON Server:**
 
-sh
+```sh
 json-server --watch db.json
+
 This will host your JSON server at http://localhost:3000.
 
-Open index.html in your browser to use the application.
+**Open index.html in your browser to use the application.**
 
 **Usage**
 Add Income: Use the "Add Income" form to add a new income entry.
 Add Expense: Use the "Add Expense" form to add a new expense entry.
 Edit/Delete: Use the "Edit" and "Delete" buttons next to each entry to modify or remove it.
 Search: Use the search input to filter through the income and expense entries.
+
 **Files**
-index.html: The main HTML file for the application.
-style.css: The CSS file for styling the application.
-app.js: The main JavaScript file for handling the application's logic.
-db.json: The JSON Server database file.
+**index.html:** The main HTML file for the application.
+**style.css: **The CSS file for styling the application.
+**app.js: **The main JavaScript file for handling the application's logic.
+**db.json:** The JSON Server database file.
+
 **Development**
 Starting the JSON Server
-sh
+
+```sh
 json-server --watch db.json
-Opening the Application
+
+**Opening the Application**
+
 Open **index.html** in your browser.
 
 Contributions
