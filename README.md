@@ -10,10 +10,7 @@ A simple web application to track incomes and expenses, built with HTML, CSS, an
 - Search through incomes and expenses.
 - Responsive design for a better user experience on different devices.
 
-## Hosted URLs
 
-- **JSON Server**: [http://your-json-server-url](http://your-json-server-url)
-- **Web App**: [http://your-web-app-url](http://your-web-app-url)
 
 ## Installation
 
@@ -31,12 +28,10 @@ A simple web application to track incomes and expenses, built with HTML, CSS, an
 Install JSON Server:
 
 sh
-Copy code
 npm install -g json-server
 Create a db.json file in the project directory with the following content:
 
-json
-Copy code
+**json**
 {
   "incomes": [
     {
@@ -61,32 +56,30 @@ Copy code
     }
   ]
 }
-Start JSON Server:
+**Start JSON Server:**
 
 sh
-Copy code
 json-server --watch db.json
 This will host your JSON server at http://localhost:3000.
 
 Open index.html in your browser to use the application.
 
-Usage
+**Usage**
 Add Income: Use the "Add Income" form to add a new income entry.
 Add Expense: Use the "Add Expense" form to add a new expense entry.
 Edit/Delete: Use the "Edit" and "Delete" buttons next to each entry to modify or remove it.
 Search: Use the search input to filter through the income and expense entries.
-Files
+**Files**
 index.html: The main HTML file for the application.
 style.css: The CSS file for styling the application.
 app.js: The main JavaScript file for handling the application's logic.
 db.json: The JSON Server database file.
-Development
+**Development**
 Starting the JSON Server
 sh
-Copy code
 json-server --watch db.json
 Opening the Application
-Open index.html in your browser.
+Open **index.html** in your browser.
 
 Contributions
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
@@ -94,7 +87,3 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-less
-Copy code
-
-Replace the placeholders `http://your-json-server-url` and `http://your-web-app-url` with the actual URLs where your JSON server and web app are hosted. This will provide clear instructions for users to access the hosted application directly.
