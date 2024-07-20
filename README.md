@@ -22,7 +22,7 @@ A simple web application to track incomes and expenses, built with HTML, CSS, an
 
 1. Clone the repository:
 
-   git clone https://github.com/yourusername/budget-tracker.git
+   git clone https://github.com/WeddyNkatha265/budget-tracker.git
    
    cd budget-tracker
    
