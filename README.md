@@ -23,10 +23,12 @@ A simple web application to track incomes and expenses, built with HTML, CSS, an
 1. Clone the repository:
 
    git clone https://github.com/yourusername/budget-tracker.git
+   
    cd budget-tracker
+   
 Install JSON Server:
 
-   sh
+   
    npm install -g json-server
 
 Create a db.json file in the project directory with the following content:
@@ -60,7 +62,7 @@ Create a db.json file in the project directory with the following content:
 
 ### **Start JSON Server:**
 
-sh
+
 json-server --watch db.json
 
 This will host your JSON server at http://localhost:3000.
