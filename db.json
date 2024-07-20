@@ -1,0 +1,36 @@
+{
+  "incomes": [
+    {
+      "id": "b63b",
+      "description": "youtube",
+      "amount": 300,
+      "date": "2001-02-22"
+    },
+    {
+      "id": "0daf",
+      "description": "Football",
+      "amount": 100,
+      "date": "2000-02-28"
+    },
+    {
+      "id": "c92d",
+      "description": "Salary",
+      "amount": 10000,
+      "date": "2220-01-28"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "d14c",
+      "description": "chocolate",
+      "amount": 200,
+      "date": "2022-02-14"
+    },
+    {
+      "id": "7ffd",
+      "description": "phones",
+      "amount": 3003,
+      "date": "2000-04-28"
+    }
+  ]
+}

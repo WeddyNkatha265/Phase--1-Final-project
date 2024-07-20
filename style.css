@@ -1,0 +1,136 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#balance {
+    margin: 20px 0;
+}
+
+header form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+header input, header button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+header input[type="text"], header input[type="number"], header input[type="date"] {
+    flex: 1;
+}
+
+header button {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: #218838;
+}
+
+#search {
+    margin-top: 20px;
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+#income-list, #expense-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.income-item, .expense-item {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.income-item span, .expense-item span {
+    flex: 1;
+}
+
+.income-item button, .expense-item button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.income-item .edit-btn, .expense-item .edit-btn {
+    background-color: #ffc107;
+    color: white;
+}
+
+.income-item .edit-btn:hover, .expense-item .edit-btn:hover {
+    background-color: #e0a800;
+}
+
+.income-item .delete-btn, .expense-item .delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.income-item .delete-btn:hover, .expense-item .delete-btn:hover {
+    background-color: #c82333;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode header {
+    background-color: #444;
+}
+
+.dark-mode input, .dark-mode button {
+    background-color: #555;
+    color: white;
+    border: 1px solid #666;
+}
+
+.dark-mode .income-item, .dark-mode .expense-item {
+    background-color: #444;
+    border-color: #555;
+}
+
+.dark-mode #search {
+    background-color: #555;
+    border-color: #666;
+    color: white;
+}

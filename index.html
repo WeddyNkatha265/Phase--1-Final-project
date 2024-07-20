@@ -1,0 +1,55 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Budget Tracker</h1>
+      <div id="balance">
+        <h2>Balance: $<span id="balance-amount">0</span></h2>
+      </div>
+      <form id="income-form">
+        <h3>Add Income</h3>
+        <input
+          type="text"
+          id="income-description"
+          placeholder="Description"
+          required
+        />
+        <input type="number" id="income-amount" placeholder="Amount" required />
+        <input type="date" id="income-date" required />
+        <button type="submit">Add Income</button>
+      </form>
+      <form id="expense-form">
+        <h3>Add Expense</h3>
+        <input
+          type="text"
+          id="expense-description"
+          placeholder="Description"
+          required
+        />
+        <input
+          type="number"
+          id="expense-amount"
+          placeholder="Amount"
+          required
+        />
+        <input type="date" id="expense-date" required />
+        <button type="submit">Add Expense</button>
+      </form>
+      <input type="text" id="search" placeholder="Search..." />
+    </header>
+    <main id="main-content">
+      <h2>Incomes</h2>
+      <ul id="income-list"></ul>
+      <h2>Expenses</h2>
+      <ul id="expense-list"></ul>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
